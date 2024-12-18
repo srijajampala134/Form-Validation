@@ -1,0 +1,59 @@
+
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body {
+    background:url(background.jpg);
+    font-family: Arial, sans-serif;
+    background-repeat: no-repeat;
+    height:100vh;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgb(92, 71, 111) ;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 50%;
+    padding: 20px;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 3px solid silver;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+.text-center{
+    color:rgb(155, 176, 239);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    text-decoration: underline;
+   
+}
+label{
+    color: rgb(203, 206, 211);
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    border:2px solid silver;
+    border:2px solid silver;
+    border-radius: 20px;
+    padding: 5px;
+    width: fit-content;
+    
+}
+.form-control{
+    background-color:rgb(232, 232, 248);
+    border-radius: 300px;
+    border:2px solid rgb(37, 36, 36);
+
+}
+.btn{
+    background-color: rgb(25, 148, 185);
+}
